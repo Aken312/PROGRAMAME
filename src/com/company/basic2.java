@@ -19,6 +19,8 @@ public class basic2 {
         }
         else if (OP.equals("+")){
             System.out.println(N1 + N2);
+        }else {
+            System.out.println("INCORRECTISIMO");
         }
     }
 }
