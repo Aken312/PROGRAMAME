@@ -15,10 +15,10 @@ public class basic2 {
         String OP = sc.nextLine();
 
         if (OP.equals("*")){
-            System.out.println(N1 * N2);
+            System.out.println("Resultado = " + N1 * N2);
         }
         else if (OP.equals("+")){
-            System.out.println(N1 + N2);
+            System.out.println("Resultado = " + (N1 + N2));
         }else {
             System.out.println("INCORRECTISIMO");
         }
