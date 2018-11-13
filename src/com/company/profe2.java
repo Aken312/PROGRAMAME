@@ -10,6 +10,7 @@ public class profe2 {
         Scanner sc= new Scanner(System.in);
         int[] personas = new int[100];
         personas[0] = 99;
+        int contador=0;
 
         int grupos=0;
         for (int i=1; personas[i-1] != 0 ; i++) {
