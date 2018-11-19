@@ -10,7 +10,7 @@ public class basic6 {
         Scanner sc =new Scanner(System.in);
         System.out.println("Horas trabajadas");
         float Horas= sc.nextFloat();
-        float si= sc.nextFloat();
+        float si;
         double dinero= 0;
         float Horasextra= Horas-35;
         System.out.println("Precio por hora");
